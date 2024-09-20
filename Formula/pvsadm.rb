@@ -1,7 +1,7 @@
 class Pvsadm < Formula
   desc "Tool for managing the IBM Power Systems Virtual Servers"
   homepage "https://github.com/ppc64le-cloud/pvsadm"
-  version "0.1.11"
+  version "0.1.16"
   license "Apache-2.0"
   on_macos do
     on_intel do
@@ -17,8 +17,8 @@ class Pvsadm < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.11/pvsadm-linux-amd64.tar.gz"
-      sha256 "b25e9453bdd75a11af3303783c250c93f05b3472cfe49e795bab200e5db04e03"
+      url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.16/pvsadm-linux-amd64.tar.gz"
+      sha256 "657df11bd517309cfdbd3d28fe18ce2832e9d2a3388c46e1e921792f717ce038"
     end
   end
 
