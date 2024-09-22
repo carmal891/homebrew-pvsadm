@@ -1,4 +1,4 @@
-class Pvsadm < Formula
+class PvsadmBackup < Formula
   desc "Tool for managing the IBM Power Systems Virtual Servers"
   homepage "https://github.com/ppc64le-cloud/pvsadm"
   license "Apache-2.0"
