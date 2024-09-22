@@ -1,11 +1,11 @@
 class PvsadmDarwinAmd64 < Formula
 desc "Tool for managing the IBM Power Systems Virtual Servers"
 homepage "https://github.com/ppc64le-cloud/pvsadm"
-version "0.1.16"
+version "0.1.17"
 license "Apache-2.0"
 
-url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.16/pvsadm-darwin-amd64.tar.gz"
-sha256 "7af9d26b61a032f874be6d5a040b762796651bfde1acf95188b23ad85de1a646"
+url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.1.17/pvsadm-darwin-amd64.tar.gz"
+sha256 "74407ab1f80581e4228f5132c956c334afbceee8cb9833f25800fe2bfa661cdc"
 
 def install
 bin.install "pvsadm"
