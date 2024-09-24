@@ -1,11 +1,10 @@
 class Pvsadm < Formula
   desc "Tool for managing the IBM Power Systems Virtual Servers"
   homepage "https://github.com/ppc64le-cloud/pvsadm"
-  license "Apache-2.0"
-  version "1.0.0"
   url "https://github.com/ppc64le-cloud/pvsadm"
-  sha256 "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
-
+  version "1.0.0"
+  sha256 "e3d6ff99ada4383f42d80f4e027fb4d102b247a41d4b4bdf36ede8b1ca01990c"
+  license "Apache-2.0"
 
   if OS.mac?
     if Hardware::CPU.intel?
@@ -34,4 +33,3 @@ class Pvsadm < Formula
     @formula.test
   end
 end
-
