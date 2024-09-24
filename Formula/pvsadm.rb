@@ -1,9 +1,6 @@
 class Pvsadm < Formula
   desc "Tool for managing the IBM Power Systems Virtual Servers"
   homepage "https://github.com/ppc64le-cloud/pvsadm"
-  url "https://example.com/dummy.tar.gz"
-  version "1.0.0"
-  sha256 "e3d6ff99ada4383f42d80f4e027fb4d102b247a41d4b4bdf36ede8b1ca01990c"
   license "Apache-2.0"
 
   def install
