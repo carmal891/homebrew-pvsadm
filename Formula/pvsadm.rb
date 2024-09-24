@@ -2,8 +2,8 @@ class Pvsadm < Formula
   desc "Tool for managing the IBM Power Systems Virtual Servers"
   homepage "https://github.com/ppc64le-cloud/pvsadm"
   license "Apache-2.0"
-  url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.0.1.tar.gz"
-  sha256 "0ece0d5674770af26fab167f3c63e8dc49c8947bef15cd745a4e45b4c255932c"
+  url "nil"
+  sha256 "nil"
 
 
   if OS.mac?
