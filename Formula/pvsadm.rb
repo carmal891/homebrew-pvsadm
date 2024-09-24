@@ -3,6 +3,10 @@ class Pvsadm < Formula
   homepage "https://github.com/ppc64le-cloud/pvsadm"
   license "Apache-2.0"
 
+   # Specify the version and URL for downloading
+   version "1.0.0"  # Replace with the actual version
+   url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v#{version}.tar.gz"
+
   if OS.mac?
     if Hardware::CPU.intel?
       require_relative "pvsadm_darwin_amd64"
