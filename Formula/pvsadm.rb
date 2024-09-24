@@ -3,9 +3,8 @@ class Pvsadm < Formula
   homepage "https://github.com/ppc64le-cloud/pvsadm"
   license "Apache-2.0"
 
-   # Specify the version and URL for downloading
-   version "1.0.0"  # Replace with the actual version
-   url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v#{version}.tar.gz"
+   version "1.0.0"
+   url "https://github.com/ppc64le-cloud/pvsadm/releases/download/v0.0.1.tar.gz"
 
   if OS.mac?
     if Hardware::CPU.intel?
