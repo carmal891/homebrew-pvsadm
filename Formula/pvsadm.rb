@@ -1,7 +1,7 @@
 class Pvsadm < Formula
   desc "Tool for managing the IBM Power Systems Virtual Servers"
   homepage "https://github.com/ppc64le-cloud/pvsadm"
-  version "0.1.11"
+  version "0.1.14"
   license "Apache-2.0"
   on_macos do
     on_intel do
